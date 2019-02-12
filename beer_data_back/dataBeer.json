@@ -1,0 +1,52 @@
+{
+    "BeerMain": [
+        {
+            "BeerName": "Magic Hat No 9",
+            "Descripcion": "Pale Ale",
+            "Alcohol": 5.1,
+            "price": 7.0
+        },
+        {
+            "BeerName": "Magic Hat No 9",
+            "Descripcion": "Pale Ale",
+            "Alcohol": 5.1,
+            "price": 7.0
+        },
+        {
+            "BeerName": "Magic Hat No 9",
+            "Descripcion": "Pale Ale",
+            "Alcohol": 5.1,
+            "price": 7.0
+        },
+        {
+            "BeerName": "Magic Hat No 9",
+            "Descripcion": "Pale Ale",
+            "Alcohol": 5.1,
+            "price": 7.0
+        },
+        {
+            "BeerName": "Concrete Beach",
+            "Descripcion": "Pilsner",
+            "Alcohol": 5.2,
+            "price": 8.0
+        },
+        {
+            "BeerName": "Lagunitas IPA",
+            "Descripcion": "IPA",
+            "Alcohol": 6.2,
+            "price": 8.0
+        }
+    ],
+    "BeerDown": {
+        "BeerName": "Sea Dog",
+        "Descripcion": "Blueberry Wheat Ale",
+        "Alcohol": 4.7,
+        "price": 8.0
+    },
+    "Banner": {
+        "Name": "Banner2",
+        "Title": "TITLE 2",
+        "Text1": "Text Banne 2",
+        "Text2": "Text Banne 2 down"
+    }
+}
