@@ -11,7 +11,7 @@ def BeerView(request):
     if request.method == "POST":
         serializer = FinalDataSerializer(data=request.data)
         if serializer.is_valid():
-            fileName = 'dataBeer.json'
+            fileName = '../dataBeer.json'
 
             with open(fileName, 'w') as file:
                 json.dump(serializer.data, file, indent=4)

@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '-z&ekv=0el&kpq#%7e&=a)i1kue-3!+fm9-klcy%-*&it15y$6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -41,9 +41,13 @@ INSTALLED_APPS = [
     'rest_framework',
 
     'beer_data_back.beerData',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
+
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -54,6 +58,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'beer_data_back.urls'
+CORS_ORIGIN_ALLOW_ALL = True;
 
 TEMPLATES = [
     {
